@@ -1,0 +1,61 @@
+.carrusel-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.carrusel-container > :nth-child(odd){
+    color: #56699b;
+    font-size: 50px;
+}
+
+.carrusel-container > :nth-child(even){
+    color: #56699b;
+    font-size: 50px;
+}
+
+@media (max-width: 575px) {
+    .carrusel-container > :nth-child(odd){
+        font-size: 30px;
+    }
+    .carrusel-container > :nth-child(even){
+        font-size: 30px;
+    }
+    
+}
+
+/* REACT */
+.carrusel-container > :nth-child(2):hover{
+    color: #00D8FF;
+    
+}
+/* JS */
+.carrusel-container > :nth-child(1):hover{
+    color: #FFD43B;
+    }
+/* Python */
+.carrusel-container > :nth-child(5):hover{
+    color: #FFD43B;
+    }
+/* MySQL */
+.carrusel-container > :nth-child(7):hover{
+    color: #F29111;
+    }
+/* CSS */
+.carrusel-container > :nth-child(4):hover{
+    color: #304CDC;
+    }
+/* HTML */
+.carrusel-container > :nth-child(3):hover{
+    color: #D35836;
+    }
+/* GITHUB */
+.carrusel-container > :nth-child(6):hover{
+    color: #000;
+    }
+/* NodeJS */
+.carrusel-container > :nth-child(8):hover{
+    color: #82CD28;
+    }
